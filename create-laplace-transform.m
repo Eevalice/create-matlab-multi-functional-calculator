@@ -44,8 +44,8 @@ while true
     elseif menu == 4 % If the user chooses Exit Program
         disp('Exiting program.')
         break % Breaks out of the while loop and exits the program
-    else % If the user enters an invalid choice
-        disp('Invalid choice. Please choose again.')
+    else % If the user enters an invalid option
+        disp('Invalid option. Please choose again.')
     end
 
     % Adds a blank line to separate the output from different iterations of the loop
