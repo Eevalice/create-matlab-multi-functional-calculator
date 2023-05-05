@@ -11,10 +11,9 @@ This repository shows how you can access MATLAB® from your Mathworks® environm
 
 Deploy your own Laplace Transform Calculator project with MATLAB®.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://www.mathworks.com/?s_tid=gn_logo)
+Examples of Laplace Transform
 [![Examples of Laplace Transform](https://vercel.com/button)](https://www.mathworks.com/help/symbolic/sym.laplace.html)
 
-_Live Example: https://www.mathworks.com/?s_tid=gn_logo
 
 ## Available Scripts
 
