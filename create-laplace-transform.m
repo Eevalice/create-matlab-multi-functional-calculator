@@ -13,7 +13,7 @@ while true
     disp('4. Exit Program')
 
     % signals the user to choose an option
-    menu = input('Enter your choice: ');
+    menu = input('Enter your option: ');
 
     if menu == 1 % If the user chooses Laplace Transform
         % signals the user to enter the function to take the Laplace transform of
