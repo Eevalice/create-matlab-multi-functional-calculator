@@ -1,7 +1,7 @@
 # create-laplace-transform-calculator
 
 ----
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/mathworks/jupyter-matlab-proxy/run-tests.yml?branch=main&logo=github)](https://github.com/mathworks/jupyter-matlab-proxy/actions) [![mathworks](https://img.shields.io/badge/mathworks--matlab-100%25-orange?style=plastic&logo=appveyor)](https://pypi.python.org/pypi/jupyter-matlab-proxy) [![codecov](https://codecov.io/gh/mathworks/jupyter-matlab-proxy/branch/main/graph/badge.svg?token=ZW3SESKCSS)](https://codecov.io/gh/mathworks/jupyter-matlab-proxy)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/mathworks/jupyter-matlab-proxy/run-tests.yml?branch=main&logo=github)](https://www.mathworks.com) [![mathworks](https://img.shields.io/badge/mathworks--matlab-100%25-orange?style=plastic&logo=appveyor)](https://www.mathworks.com/help/matlab/) [![codecov](https://codecov.io/gh/mathworks/jupyter-matlab-proxy/branch/main/graph/badge.svg?token=ZW3SESKCSS)](https://www.mathworks.com/help/matlab/scripts.html?s_tid=CRUX_lftnav)
 
 
 ![Matlab_Logo](https://user-images.githubusercontent.com/79138019/236503435-3328be99-f523-4b4b-9039-269bbf6a5ca9.png)
