@@ -28,13 +28,13 @@ In the project directory, you can run:
 
 ### `live script`
 
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Runs the app n the development mode. Open [matlab.mathworks](https://matlab.mathworks.com/) to view it in your browser.
 
 The page will reload when you make changes. You may also see any lint errors in the console.
 
 ### `create function test`
 
-Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode. See the section about [running tests](https://www.mathworks.com/help/sltest/debug-tests.html) for more information.
 
 ### `run build`
 
