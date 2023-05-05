@@ -1,4 +1,5 @@
 % reference to the function of the https://www.mathworks.com/help/symbolic/sym.laplace.html
+% Laplace Tranforms Calculator showcase all the possible functions available including inverse and Solving Initial Problems.
 syms t s % Defines the Laplace variable s and the time variable t as symbolic variables
 
 while true 
