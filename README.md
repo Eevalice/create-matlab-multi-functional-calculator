@@ -4,34 +4,33 @@
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/mathworks/jupyter-matlab-proxy/run-tests.yml?branch=main&logo=github)](https://github.com/mathworks/jupyter-matlab-proxy/actions) [![PyPI badge](https://img.shields.io/pypi/v/jupyter-matlab-proxy.svg?logo=pypi)](https://pypi.python.org/pypi/jupyter-matlab-proxy) [![codecov](https://codecov.io/gh/mathworks/jupyter-matlab-proxy/branch/main/graph/badge.svg?token=ZW3SESKCSS)](https://codecov.io/gh/mathworks/jupyter-matlab-proxy)
 
 ---
-This repository shows how you can access MATLAB® from your Jupyter® environment. With MATLAB Integration for Jupyter, you can integrate MATLAB with an existing JupyterHub deployment, single user Jupyter Notebook Server, and many other Jupyter-based systems running in the cloud or on-premises.
+This repository shows how you can access MATLAB® from your Mathworks® environment. With MATLAB Integration for Laplace Transform Calculator, you can integrate and solve MATLAB problems with an existing deployment, single user Jupyter Notebook Server, and many other Jupyter-based systems running in the cloud or on-premises.
 
-
-This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
 
 ## Deploy Your Own
 
-Deploy your own Create React App project with Vercel.
+Deploy your own Laplace Transform Calculator project with MATLAB®.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/create-react-app&template=create-react-app)
+[![Deploy with Vercel](https://vercel.com/button)](https://www.mathworks.com/?s_tid=gn_logo)
+[![Examples of Laplace Transform](https://vercel.com/button)](https://www.mathworks.com/help/symbolic/sym.laplace.html)
 
-_Live Example: https://create-react-template.vercel.app/_
+_Live Example: https://www.mathworks.com/?s_tid=gn_logo
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `live script`
 
 Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes. You may also see any lint errors in the console.
 
-### `npm test`
+### `create function test`
 
 Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### `run build`
 
 Builds the app for production to the `build` folder.
 
