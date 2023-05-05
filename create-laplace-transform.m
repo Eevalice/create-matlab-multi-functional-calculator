@@ -39,7 +39,7 @@ while true
         condition2 = input('Enter the second initial condition: ');
 
         % Solves the differential equation and initial conditions and displays the result
-        solution = dsolve(equation, [conditon1, condition2]); % merging all the formulas
+        solution = dsolve(equation, [condition1, condition2]); % merging all the formulas
         disp(['The solution to the differential equation ', char(equation), ' with initial conditions ', char(condition1), ' and ', char(condition2), ' is y(t) = ', char(solution)])
         
     elseif menu == 4 % If the user chooses Exit Program
