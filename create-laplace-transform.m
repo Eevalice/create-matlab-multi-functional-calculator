@@ -45,7 +45,7 @@ while true
         disp('Exiting program.')
         break % Breaks out of the while loop and exits the program
     else % If the user enters an invalid option
-        disp('Invalid option. Please choose again.')
+        disp('Invalid option. Please try again.')
     end
 
     % Adds a blank line to separate the output from different iterations of the loop
