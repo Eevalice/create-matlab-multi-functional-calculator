@@ -1,5 +1,5 @@
-## create-multiple-function-calculator
-## Carl Vincent A. Reyno, Chris Evan S. Tapang
+<b> create-multiple-function-calculator </b>
+<b> Carl Vincent A. Reyno, Chris Evan S. Tapang </b>
 ----
 
 
@@ -8,7 +8,7 @@
 
 
 <!--![Matlab_Logo](https://user-images.githubusercontent.com/79138019/236503435-3328be99-f523-4b4b-9039-269bbf6a5ca9.png) -->
-## Welcome to Multi-Functional Calculator
+<b> Welcome to Multi-Functional Calculator </b>
 
 
 
