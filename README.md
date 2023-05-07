@@ -64,6 +64,10 @@ This repository shows how you can access MATLAB® from your Mathworks® environm
 ![image](https://user-images.githubusercontent.com/79138019/236697891-612c1434-ec86-4c84-8eb3-12f09d1a1d08.png)
 ![image](https://user-images.githubusercontent.com/79138019/236697897-9461de0d-25b0-4629-b497-417f5eeee021.png)
 
+## Complex Equations
+![image](https://user-images.githubusercontent.com/79138019/236700934-bd34c627-6781-4b18-92de-283ef1398481.png)
+
+
 
 ## Polar Form and Integer Powers of Complex Numbers
 ![image](https://user-images.githubusercontent.com/79138019/236698073-6cac0059-ae75-4e2c-94cb-9d78be276a76.png)
