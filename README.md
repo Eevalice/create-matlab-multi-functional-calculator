@@ -38,7 +38,6 @@ This repository shows how you can access MATLAB® from your Mathworks® environm
 ![image](https://user-images.githubusercontent.com/79138019/236696780-d8b5f6e6-d630-4f5d-9448-80b3aa3fb409.png)
 
 
-
 ## Regula-Falsi Method / False-Position Method
 ![image](https://user-images.githubusercontent.com/79138019/236696366-57b66549-e0f6-4ef4-a589-68147a243315.png)
 ![image](https://user-images.githubusercontent.com/79138019/236696606-726f6f43-1373-448b-ad8e-995f9001da84.png)
@@ -55,7 +54,16 @@ This repository shows how you can access MATLAB® from your Mathworks® environm
 
 ## Polar Form and Integer Powers of Complex Numbers
 ![image](https://user-images.githubusercontent.com/79138019/236698073-6cac0059-ae75-4e2c-94cb-9d78be276a76.png)
-![image](https://user-images.githubusercontent.com/79138019/236698227-f24a6f05-d0c5-4db8-bfb8-2c5959766b38.png)
+![image](https://user-images.githubusercontent.com/79138019/236698284-9f8a4c23-4789-4577-bf85-99a7e65aff6e.png)
+![image](https://user-images.githubusercontent.com/79138019/236698262-395fe377-3558-49dd-9713-f6d29a1408af.png)
+![image](https://user-images.githubusercontent.com/79138019/236698301-b13619c9-c0ad-4cbc-994b-fa2d8a23e299.png)
+![image](https://user-images.githubusercontent.com/79138019/236698385-0b3f0f59-eb56-4e35-8169-6b7ce1801c74.png)
+![image](https://user-images.githubusercontent.com/79138019/236698392-511dde68-7bc0-4e6b-9b3e-0364eb9c474f.png)
+![image](https://user-images.githubusercontent.com/79138019/236698425-277ac65f-71bb-4ba6-a793-d158065b994e.png)
+![image](https://user-images.githubusercontent.com/79138019/236698442-371cfb45-7872-46de-a2ce-c7a86d376188.png)
+![image](https://user-images.githubusercontent.com/79138019/236698463-ff047f96-130f-4bea-945f-9ba9763ac72e.png)
+![image](https://user-images.githubusercontent.com/79138019/236698469-a31910bf-d835-4d8f-af95-a23745279edf.png)
+![image](https://user-images.githubusercontent.com/79138019/236698480-9229752f-7301-4d50-896b-f948dacc892b.png)
 
 
 
