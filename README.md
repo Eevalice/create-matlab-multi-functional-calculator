@@ -21,7 +21,7 @@
 This repository shows how you can access MATLAB® from your Mathworks® environment. With MATLAB Integration for Matlab Multiple Function Calculator, you can integrate and solve MATLAB problems with an existing deployment, single user Mathworks® Server, and many other Mathworks-based systems running in the cloud or on-premises.
 
 
-## Menu of Multi-functional Calculator
+<b> Menu of Multi-functional Calculator </b>
 ![image](https://user-images.githubusercontent.com/79138019/236701368-638f1370-b240-4af0-8e61-5d47092055b2.png)
 ![image](https://user-images.githubusercontent.com/79138019/236701352-222ea2de-6a8e-4ba9-9dd4-33ebcae53506.png)
 ![image](https://user-images.githubusercontent.com/79138019/236701378-efd18b26-3ef4-4269-bf5e-ffa93160e5fd.png)
