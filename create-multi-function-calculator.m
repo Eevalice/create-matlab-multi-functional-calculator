@@ -3,7 +3,8 @@
 % C++ to Matlab Implementation
 % Laplace Tranforms Calculator showcase all the possible functions available including inverse and Solving Initial Problems.
 % Numerical showwcase all the possible functions available including fixed-method iteration, newton-raphson method, bisection method, and regula-falsi method known as the false position method
-% Complex numbers showcase all the possible functions available including the operations on solving complex numbers, multiple conversions of complex numbers, roots of complex numbers and solving complex equations
+% Complex numbers showcase all the possible functions available including
+% the operations on solving complex numbers, multiple conversions of complex numbers, roots of complex numbers and solving complex equations
 syms x t s y(t) % Defines the Laplace variable s, x, y(t) as the initial condition variable and the time variable t as symbolic variables
    
 while true 
@@ -194,15 +195,17 @@ while true
             z1_atan = atan(z1);
 
         % Display the results
+            disp('------------------------------------------------------')
             disp('Basic operations on complex numbers:')
             disp(['z1 + z2 = ', num2str(z1 + z2)])
             disp(['z1 - z2 = ', num2str(z_diff)])
             disp(['z1 * z2 = ', num2str(z_product)])
             disp(['z1 / (z1 - z2) = ', num2str(z_quotient)])
-
-            disp('Advanced operations on complex numbers:')
-        
+        disp('------------------------------------------------------')    
+        disp('Advanced operations on complex numbers:')
+        disp('------------------------------------------------------')
         disp('Inverse, Hyperbolic, and Inverse Hyperbolic Functions:')
+        disp('------------------------------------------------------')
         % displaying inverse complex numbers
             disp(['1 / z1 = ', num2str(z1_inverse)]) 
             disp(['1 / z2 = ', num2str(z2_inverse)]) 
@@ -215,8 +218,9 @@ while true
             disp(['acosh(z1) = ', num2str(z1_acosh)])
             disp(['atanh(z1) = ', num2str(z1_atanh)])
 
-
+    disp('------------------------------------------------------')
     disp('Exponential, Trigonometric, and Logarithmic Functions:')
+    disp('------------------------------------------------------')
         % displaying the Exponential and Logarithmic functions
             disp(['exp(z1) = ', num2str(z1_exp)])
             disp(['log(z1) = ', num2str(z1_log)])
