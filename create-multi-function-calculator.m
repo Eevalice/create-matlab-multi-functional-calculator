@@ -351,26 +351,24 @@ end
         disp(roots);
 
     elseif menu == 11 % if the user chooses the complex equations
-        disp("13. Solve Complex Equations")
+        disp("Solve Complex Equations")
 
-choice = input("Enter your choice (1-13): ");
-
-if choice == 13
-   syms x
-   eqn = input("Enter the complex equation in terms of x: ");
-   solution = solve(eqn, x);
-   disp("The solution is:")
-   disp(solution)
+    if choice == 13
+        syms x
+        eqn = input("Enter the complex equation in terms of x: ");
+        solution = solve(eqn, x);
+        disp("The solution is:")
+        disp(solution)
    
-else
-   disp("Enter two complex numbers in the form a+bi.")
-   a1 = input("Enter the real part of the first number: ");
-   b1 = input("Enter the imaginary part of the first number: ");
-   a2 = input("Enter the real part of the second number: ");
-   b2 = input("Enter the imaginary part of the second number: ");
+    else
+       disp("Enter two complex numbers in the form a+bi.")
+       a1 = input("Enter the real part of the first number: ");
+       b1 = input("Enter the imaginary part of the first number: ");
+       a2 = input("Enter the real part of the second number: ");
+       b2 = input("Enter the imaginary part of the second number: ");
 
-   num1 = a1 + b1*1i;
-   num2 = a2 + b2*1i;
+       num1 = a1 + b1*1i;
+       num2 = a2 + b2*1i;
 
    switch choice
        case 1
@@ -463,7 +461,7 @@ else
         disp("Invalid choice!")
     return
     end
-end
+    end
 
    elseif menu == 12 % If the user chooses Exit Program
         disp('Exiting program.')
