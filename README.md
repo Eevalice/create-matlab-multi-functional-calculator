@@ -62,15 +62,25 @@ This repository shows how you can access MATLAB® from your Mathworks® environm
 
 ## Polar Form and Integer Powers of Complex Numbers
 ![image](https://user-images.githubusercontent.com/79138019/236698073-6cac0059-ae75-4e2c-94cb-9d78be276a76.png)
+## 1. Rectangular to Polar 
 ![image](https://user-images.githubusercontent.com/79138019/236698284-9f8a4c23-4789-4577-bf85-99a7e65aff6e.png)
+## 2. Polar to Rectangular
 ![image](https://user-images.githubusercontent.com/79138019/236698262-395fe377-3558-49dd-9713-f6d29a1408af.png)
+## 3. Rectangular to Exponential
 ![image](https://user-images.githubusercontent.com/79138019/236698301-b13619c9-c0ad-4cbc-994b-fa2d8a23e299.png)
+## 4. Exponential to Rectangular
 ![image](https://user-images.githubusercontent.com/79138019/236698385-0b3f0f59-eb56-4e35-8169-6b7ce1801c74.png)
+## 5. Polar to Exponential
 ![image](https://user-images.githubusercontent.com/79138019/236698392-511dde68-7bc0-4e6b-9b3e-0364eb9c474f.png)
+## 6. Exponential to Polar
 ![image](https://user-images.githubusercontent.com/79138019/236698425-277ac65f-71bb-4ba6-a793-d158065b994e.png)
+## 7. Polar to Trigonometric
 ![image](https://user-images.githubusercontent.com/79138019/236698442-371cfb45-7872-46de-a2ce-c7a86d376188.png)
+## 8. Trigonometric to Polar
 ![image](https://user-images.githubusercontent.com/79138019/236698463-ff047f96-130f-4bea-945f-9ba9763ac72e.png)
+## 9. Rectangular to Trigonometric
 ![image](https://user-images.githubusercontent.com/79138019/236698469-a31910bf-d835-4d8f-af95-a23745279edf.png)
+## 10. Trigonometric to Rectangular
 ![image](https://user-images.githubusercontent.com/79138019/236698480-9229752f-7301-4d50-896b-f948dacc892b.png)
 
 
