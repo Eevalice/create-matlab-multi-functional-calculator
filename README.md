@@ -1,6 +1,9 @@
 # create-multiple-function-calculator
 Carl Vincent A. Reyno, Chris Evan S. Tapang
 ----
+
+![image](https://user-images.githubusercontent.com/79138019/236696242-c74b3dbf-deb1-4e1d-a0aa-76fbf294d56f.png)
+
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/mathworks/jupyter-matlab-proxy/run-tests.yml?branch=main&logo=github)](https://www.mathworks.com) [![mathworks](https://img.shields.io/badge/mathworks--matlab-100%25-orange?style=plastic&logo=appveyor)](https://www.mathworks.com/help/matlab/) [![codecov](https://codecov.io/gh/mathworks/jupyter-matlab-proxy/branch/main/graph/badge.svg?token=ZW3SESKCSS)](https://www.mathworks.com/help/matlab/scripts.html?s_tid=CRUX_lftnav)
 
 
