@@ -20,7 +20,10 @@ Carl Vincent A. Reyno, Chris Evan S. Tapang
 This repository shows how you can access MATLAB® from your Mathworks® environment. With MATLAB Integration for Matlab Multiple Function Calculator, you can integrate and solve MATLAB problems with an existing deployment, single user Mathworks® Server, and many other Mathworks-based systems running in the cloud or on-premises.
 
 
-![image](https://user-images.githubusercontent.com/79138019/236696532-18cf7a37-5b8d-41cd-b579-fd12027bb25e.png)
+## --------------------------------Menu of Multi-functional Calculator--------------------------------
+![image](https://user-images.githubusercontent.com/79138019/236701368-638f1370-b240-4af0-8e61-5d47092055b2.png)
+![image](https://user-images.githubusercontent.com/79138019/236701352-222ea2de-6a8e-4ba9-9dd4-33ebcae53506.png)
+![image](https://user-images.githubusercontent.com/79138019/236701378-efd18b26-3ef4-4269-bf5e-ffa93160e5fd.png)
 
 
 ## Laplace Transform
@@ -66,6 +69,14 @@ This repository shows how you can access MATLAB® from your Mathworks® environm
 
 ## Complex Equations
 ![image](https://user-images.githubusercontent.com/79138019/236700934-bd34c627-6781-4b18-92de-283ef1398481.png)
+## Advanced and Basic Operations
+![image](https://user-images.githubusercontent.com/79138019/236701585-70f0128c-4d54-442c-b76f-8265c2a36f4b.png)
+![image](https://user-images.githubusercontent.com/79138019/236701598-387b74e2-5e0b-4472-af63-3309cc29dcc8.png)
+![image](https://user-images.githubusercontent.com/79138019/236701648-f1d6a5ee-ce76-414d-ae04-c5cc7dc12e4d.png)
+## Complex Equation Solution Algorithm
+![image](https://user-images.githubusercontent.com/79138019/236701654-b48f58f8-3c2c-4849-b8ad-6d9a87d63ada.png)
+![image](https://user-images.githubusercontent.com/79138019/236701703-7bad7e12-6a9c-4a25-94bd-f822c1241284.png)
+
 
 
 
