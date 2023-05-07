@@ -3,12 +3,13 @@
 % C++ to Matlab Implementation
 % Laplace Tranforms Calculator showcase all the possible functions available including inverse and Solving Initial Problems.
 % Numerical showwcase all the possible functions available including fixed-method iteration, newton-raphson method, bisection method, and regula-falsi method known as the false position method
+% Complex numbers showcase all the possible functions available including the operations on solving complex numbers, multiple conversions of complex numbers, roots of complex numbers and solving complex equations
 syms x t s y(t) % Defines the Laplace variable s, x, y(t) as the initial condition variable and the time variable t as symbolic variables
    
 while true 
     % Loops continuously until the user chooses to exit the program
     % Displays a menu of options for the user
-    disp('Select an option:[1-10]')
+    disp('Select an option:[1-12]')
     
     % Laplace Transform
     disp('Welcome to Laplace Transform Calculator')
@@ -30,11 +31,13 @@ while true
     disp('----------------------------------------')
     disp('8. Operations on Solving Complex Numbers')
     disp('9. Multiple Conversions of Complex Numbers')
+    disp('10. Roots of Complex Numbers')
+    disp('11. Solving Complex Equations')
     disp('----------------------------------------')
-    disp('10. Exit Program')
+    disp('12. Exit Program')
 
     % signals the user to choose an option
-    menu = input('Enter your menu option - [1-10]: ');
+    menu = input('Enter your menu option - [1-12]: ');
 
     if menu == 1 % If the user chooses Laplace Transform
         % signals the user to enter the function to take the Laplace transform of
@@ -326,6 +329,7 @@ while true
         y = r*sin(theta);
         fprintf("Rectangular form: (%.2f, %.2f)\n", x, y);
 
+
     elseif choices == 11 % If the user chooses Exit Program
         disp('Exiting program.')
         break % Breaks out of the while loop and exits the program
@@ -334,7 +338,130 @@ while true
   end
 end
 
-   elseif menu == 10 % If the user chooses Exit Program
+    elseif menu == 10 % if the user chooses the roots of the complex number
+        % Find roots of a complex number
+        c = input("Enter the complex number (in rectangular form): ");
+        n = input("Enter the number of roots (n): ");
+        roots = nthroot(abs(c), n).*exp(1j*(angle(c) + (0:n-1)*(2*pi/n))); % reference from the matlab documentation
+        disp("Roots:");
+        disp(roots);
+
+    elseif menu == 11 % if the user chooses the complex equations
+        disp("13. Solve Complex Equations")
+
+choice = input("Enter your choice (1-13): ");
+
+if choice == 13
+   syms x
+   eqn = input("Enter the complex equation in terms of x: ");
+   solution = solve(eqn, x);
+   disp("The solution is:")
+   disp(solution)
+   
+else
+   disp("Enter two complex numbers in the form a+bi.")
+   a1 = input("Enter the real part of the first number: ");
+   b1 = input("Enter the imaginary part of the first number: ");
+   a2 = input("Enter the real part of the second number: ");
+   b2 = input("Enter the imaginary part of the second number: ");
+
+   num1 = a1 + b1*1i;
+   num2 = a2 + b2*1i;
+
+   switch choice
+       case 1
+           result = num1 + num2;
+           disp("The sum is:")
+           disp(result)
+       case 2
+           result = num1 - num2;
+           disp("The difference is:")
+           disp(result)
+       case 3
+           result = num1 * num2;
+           disp("The product is:")
+           disp(result)
+       case 4
+           result = num1 / num2;
+           disp("The quotient is:")
+           disp(result)
+       case 5
+           result = abs(num1);
+           disp("The modulus of the first number is:")
+           disp(result)
+           result = abs(num2);
+           disp("The modulus of the second number is:")
+           disp(result)
+       case 6
+           result = conj(num1);
+           disp("The conjugate of the first number is:")
+           disp(result)
+           result = conj(num2);
+           disp("The conjugate of the second number is:")
+           disp(result)
+       case 7
+           result1 = abs(num1)*exp(1i*angle(num1));
+           result2 = abs(num2)*exp(1i*angle(num2));
+           disp("The exponential form of the first number is:")
+           disp(result1)
+           disp("The exponential form of the second number is:")
+           disp(result2)
+       case 8
+           result1 = abs(num1)*cos(angle(num1)) + abs(num1)*1i*sin(angle(num1));
+           result2 = abs(num2)*cos(angle(num2)) + abs(num2)*1i*sin(angle(num2));
+           disp("The trigonometric form of the first number is:")
+           disp(result1)
+           disp("The trigonometric form of the second number is:")
+           disp(result2)
+       case 9
+           result1 = 1/num1;
+           result2 = 1/num2;
+           disp("The inverse of the first number is:")
+           disp(result1)
+           disp("The inverse of the second number is:")
+           disp(result2)
+       case 10
+           n = input("Enter the degree of the root: ");
+           result1 = nthroot(num1, n);
+           result2 = nthroot(num2, n);
+           disp("The nth root of the first number is:")
+        disp(result1)
+        disp("The nth root of the second number is:")
+        disp(result2)
+        case 11
+        result1 = sqrt(num1);
+        result2 = sqrt(num2);
+        disp("The square root of the first number is:")
+        disp(result1)
+        disp("The square root of the second number is:")
+        disp(result2)
+        case 12
+        op = input("Enter the operation (+, -, , /): ");
+   switch op
+        case '+'
+        result = num1 + num2;
+        case '-'
+        result = num1 - num2;
+        case ''
+        result = num1 * num2;
+        case '/'
+        result = num1 / num2;
+        otherwise
+        disp("Invalid operation!")
+        return
+    end
+        disp("The result of the operation is:")
+        disp(result)
+    case 13
+        disp("Invalid choice!")
+    return
+    otherwise
+        disp("Invalid choice!")
+    return
+    end
+end
+
+   elseif menu == 12 % If the user chooses Exit Program
         disp('Exiting program.')
         break % Breaks out of the while loop and exits the program
     else % If the user enters an invalid choice
