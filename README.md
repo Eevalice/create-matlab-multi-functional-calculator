@@ -94,12 +94,6 @@ This repository shows how you can access MATLAB® from your Mathworks® environm
 
 Deploy your own Multiple Function Calculator project with MATLAB®.
 
-## Documentation
-
-## Laplace Transform
-[![Examples of Laplace Transform](https://vercel.com/button)](https://www.mathworks.com/help/symbolic/sym.laplace.html)
-
-
 
 ## Available Scripts
 
