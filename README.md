@@ -18,7 +18,15 @@ This repository shows how you can access MATLAB® from your Mathworks® environm
 ![image](https://user-images.githubusercontent.com/79138019/236696532-18cf7a37-5b8d-41cd-b579-fd12027bb25e.png)
 
 
+## Laplace Transform
+![image](https://user-images.githubusercontent.com/79138019/236698618-6eee2aa5-641a-43d0-9c61-d921b7eab4ae.png)
+![image](https://user-images.githubusercontent.com/79138019/236698551-018fe739-e727-4874-b21b-5ceb116693d0.png)
 
+## Inverse Laplace Transform
+![image](https://user-images.githubusercontent.com/79138019/236698661-f5c44989-8cf5-41b5-b69d-5668ac326195.png)
+
+## Solution To IVP using Laplace and Inverse Laplace Transform
+![image](https://user-images.githubusercontent.com/79138019/236698719-5a61a7f0-98fa-4756-9f5f-c89ce65a2080.png)
 
 
 ## Fixed-Point-Iteration Method
