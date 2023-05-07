@@ -7,8 +7,13 @@ Carl Vincent A. Reyno, Chris Evan S. Tapang
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/mathworks/jupyter-matlab-proxy/run-tests.yml?branch=main&logo=github)](https://www.mathworks.com) [![mathworks](https://img.shields.io/badge/mathworks--matlab-100%25-orange?style=plastic&logo=appveyor)](https://www.mathworks.com/help/matlab/) [![codecov](https://codecov.io/gh/mathworks/jupyter-matlab-proxy/branch/main/graph/badge.svg?token=ZW3SESKCSS)](https://www.mathworks.com/help/matlab/scripts.html?s_tid=CRUX_lftnav)
 
 
-![Matlab_Logo](https://user-images.githubusercontent.com/79138019/236503435-3328be99-f523-4b4b-9039-269bbf6a5ca9.png)
+<!--![Matlab_Logo](https://user-images.githubusercontent.com/79138019/236503435-3328be99-f523-4b4b-9039-269bbf6a5ca9.png) -->
+## Welcome to Multi-Functional Calculator
 
+
+
+
+<img src="https://user-images.githubusercontent.com/79138019/236503435-3328be99-f523-4b4b-9039-269bbf6a5ca9.png" width="200" height="200" />
 
 
 ---
@@ -85,17 +90,15 @@ This repository shows how you can access MATLAB® from your Mathworks® environm
 
 
 
-
-
-
 ## Deploy Your Own
 
 Deploy your own Multiple Function Calculator project with MATLAB®.
 
-## Examples of Laplace Transform
+## Documentation
 
-
+## Laplace Transform
 [![Examples of Laplace Transform](https://vercel.com/button)](https://www.mathworks.com/help/symbolic/sym.laplace.html)
+
 
 
 ## Available Scripts
