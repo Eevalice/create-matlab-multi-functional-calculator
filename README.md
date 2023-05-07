@@ -1,4 +1,4 @@
-# final prototype-create-multiple-function-calculator
+create-multiple-function-calculator
 Carl Vincent A. Reyno, Chris Evan S. Tapang
 ----
 
