@@ -3,8 +3,7 @@
 % C++ to Matlab Implementation
 % Laplace Tranforms Calculator showcase all the possible functions available including inverse and Solving Initial Problems.
 % Numerical showwcase all the possible functions available including fixed-method iteration, newton-raphson method, bisection method, and regula-falsi method known as the false position method
-% Complex numbers showcase all the possible functions available including
-% the operations on solving complex numbers, multiple conversions of complex numbers, roots of complex numbers and solving complex equations
+% Complex numbers showcase all the possible functions available including the operations on solving complex numbers, multiple conversions of complex numbers, roots of complex numbers and solving complex equations
 syms x t s y(t) % Defines the Laplace variable s, x, y(t) as the initial condition variable and the time variable t as symbolic variables
    
 while true 
