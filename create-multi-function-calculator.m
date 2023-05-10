@@ -3,7 +3,8 @@
 % C++ to Matlab Implementation
 % Laplace Tranforms Calculator showcase all the possible functions available including inverse and Solving Initial Problems.
 % Numerical showwcase all the possible functions available including fixed-method iteration, newton-raphson method, bisection method, and regula-falsi method known as the false position method
-% Complex numbers showcase all the possible functions available including the operations on solving complex numbers, multiple conversions of complex numbers, roots of complex numbers and solving complex equations
+% Complex numbers showcase all the possible functions available including
+% the operations on solving complex numbers, multiple conversions of complex numbers, roots of complex numbers and solving complex equations
 syms x t s y(t) % Defines the Laplace variable s, x, y(t) as the initial condition variable and the time variable t as symbolic variables
    
 while true 
@@ -64,49 +65,125 @@ while true
         solution = dsolve(equation, condition1); % merging all the formulas
         disp(['The solution to the differential equation ', char(equation), ' with initial conditions ', char(condition1), ' is y(t) = ', char(solution)])
         
-
       elseif menu == 4 % If the user chooses Fixed Point Iteration Method
-        % signals the user to enter the function, initial guess, and tolerance
-        f = input('Enter the function f(x): ');
-        x0 = input('Enter the initial guess x0: ');
-        tol = input('Enter the tolerance: ');
+            g = input('Enter your func(x): ');
+            x0 = input('Enter your initial value: ');
+            e = input('Enter your tolerance: ');
+            n = input('Enter no of iterations: ');
 
-        % Applies the Fixed Point Iteration Method and displays the result
-        [x, iter] = fixed_point_iteration(f, x0, tol);
-        disp(['The fixed point of f(x) = ', char(f), ' is x = ', num2str(x), ' with ', num2str(iter), ' iterations.'])
-        
+        for i=1:n
+            x1 = g(x0); % number of iterations
+            fprintf('x%d = %.f\n', i , x1)
+            x0 = x1;
+        end
      elseif menu == 5 % If the user chooses Newton-Raphson Method
         % signals the user to enter the function, initial guess, and tolerance
-        f = input('Enter the function f(x): ');
-        df = input('Enter the derivative of f(x): ');
-        x0 = input('Enter the initial guess x0: ');
-        tol = input('Enter the tolerance: ');
+        syms x;
 
-        % Applies the Newton-Raphson Method and displays the result
-        [x, iter] = newton_raphson(f, df, x0, tol);
-        disp(['The root of f(x) = ', char(f), ' is x = ', num2str(x), ' with ', num2str(iter), ' iterations.'])
+        % Input Section
+        y = input('Enter funct(x): ');
+        a = input('Enter initial guess: ');
+        e = input('Tolerable error: ');
+        N = input('Enter maximum number of steps: ');
+        % Initializing step counter
+        step = 1;
+
+        % Finding derivate of given function
+        g = diff(y,x);
+
+        % Finding Functional Value
+        fa = eval(subs(y,x,a));
+
+        while abs(fa)> e
+        fa = eval(subs(y,x,a));
+        ga = eval(subs(g,x,a));
+        if ga == 0
+            disp('Division by zero.');
+            break;
+        end
+    
+        b = a - fa/ga;
+        fprintf('step=%d\ta=%f\tf(a)=%f\n',step,a,fa);
+        a = b;
+    
+        if step>N
+            disp('Not convergent'); 
+        break;
+        end
+        step = step + 1;
+        end
+
+    fprintf('Root is %f\n', a);
         
     elseif menu == 6 % If the user chooses Bisection Method
-        % signals the user to enter the function, interval, and tolerance
-        f = input('Enter the function f(x): ');
-        a = input('Enter the left endpoint a: ');
-        b = input('Enter the right endpoint b: ');
-        tol = input('Enter the tolerance: ');
+    % Setting x as symbolic variable
+    syms x;
 
-        % Applies the Bisection Method and displays the result
-        [x, iter] = bisection(f, a, b, tol);
-        disp(['The root of f(x) = ', char(f), ' is x = ', num2str(x), ' with ', num2str(iter), ' iterations.'])
+    % Input Section
+    y = input('Enter non-linear equations: ');
+    a = input('Enter first guess: ');
+    b = input('Enter second guess: ');
+    e = input('Tolerable error: ');
+
+    % Finding Functional Value
+    fa = eval(subs(y,x,a));
+    fb = eval(subs(y,x,b));
+
+    % Implementing Bisection Method
+    if fa*fb > 0 
+        disp('Given initial values do not bracket the root.');
+    else
+        c = (a+b)/2;
+        fc = eval(subs(y,x,c));
+        fprintf('\n\na\t\t\tb\t\t\tc\t\t\tf(c)\n');
+    while abs(fc)>e
+        fprintf('%f\t%f\t%f\t%f\n',a,b,c,fc);
+        if fa*fc< 0
+            b =c;
+        else
+            a =c;
+        end
+        c = (a+b)/2;
+        fc = eval(subs(y,x,c));
+    end
+    fprintf('\nRoot is: %f\n', c);
+    end
         
     elseif menu == 7 % If the user chooses Regula-Falsi Method
-        % signals the user to enter the function, interval, and tolerance
-        f = input('Enter the function f(x): ');
-        a = input('Enter the left endpoint a: ');
-        b = input('Enter the right endpoint b: ');
-        tol = input('Enter the tolerance: ');
+        % Setting x as symbolic variable
+        syms x;
 
-        % Applies the Regula-Falsi Method and displays the result
-        [x, iter] = regula_falsi(f, a, b, tol);
-        disp(['The root of f(x) = ', char(f), ' is x = ', num2str(x), ' with ', num2str(iter), ' iterations.'])
+        % Input Section
+        y = input('Enter non-linear equations: ');
+        a = input('Enter first guess: ');
+        b = input('Enter second guess: ');
+        e = input('Tolerable error: ');
+
+        % Finding Functional Value
+        fa = eval(subs(y,x,a));
+        fb = eval(subs(y,x,b));
+
+        % Implementing Bisection Method
+        if fa*fb > 0 
+            disp('Given initial values do not bracket the root.');
+        else
+            c = a - (a-b) * fa/(fa-fb);
+            fc = eval(subs(y,x,c));
+            fprintf('\n\na\t\t\tb\t\t\tc\t\t\tf(c)\n');
+        while abs(fc)>e
+            fprintf('%f\t%f\t%f\t%f\n',a,b,c,fc);
+            if fa*fc< 0
+                b =c;
+                fb = eval(subs(y,x,b));
+            else
+                a =c;
+                fa = eval(subs(y,x,a));
+            end
+            c = a - (a-b) * fa/(fa-fb);
+            fc = eval(subs(y,x,c));
+        end
+        fprintf('\nRoot is: %f\n', c);
+        end
         
     elseif menu == 8 % if the user chooses Complex Numbers:
     
