@@ -81,7 +81,7 @@ while true
         syms x;
 
         % Input Section
-        y = input('Enter funct(x): ');
+        y = input('Enter function f(x): ');
         a = input('Enter initial guess: ');
         e = input('Tolerable error: ');
         N = input('Enter maximum number of steps: ');
@@ -120,7 +120,7 @@ while true
     syms x;
 
     % Input Section
-    y = input('Enter non-linear equations: ');
+    y = input('Enter function f(x): ');
     a = input('Enter first guess: ');
     b = input('Enter second guess: ');
     e = input('Tolerable error: ');
@@ -154,7 +154,7 @@ while true
         syms x;
 
         % Input Section
-        y = input('Enter non-linear equations: ');
+        y = input('Enter function f(x): ');
         a = input('Enter first guess: ');
         b = input('Enter second guess: ');
         e = input('Tolerable error: ');
@@ -163,7 +163,7 @@ while true
         fa = eval(subs(y,x,a));
         fb = eval(subs(y,x,b));
 
-        % Implementing Bisection Method
+        % Implementing Regula-Falsi Method 
         if fa*fb > 0 
             disp('Given initial values do not bracket the root.');
         else
@@ -187,7 +187,8 @@ while true
         
     elseif menu == 8 % if the user chooses Complex Numbers:
     
-        % Matlab Complex Number Calculator with if-else statements
+        % MATLAB Complex Number Calculator with if-else conditional statements
+        % refer to the documentation of MATLAB
 
         disp('Complex Number Calculator')
 
